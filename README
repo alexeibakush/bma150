@@ -1,0 +1,14 @@
+BMA150 Linux device driver
+--------------------------
+
+This driver implements support for Bosch Sensortec's BMA150 accelerometer sensors. This driver is also fully compatible
+with the SMB380 and BMA023 versions of the chip.
+The driver is interfaced through the input layer and sends ABS_X, ABS_Y and ABS_Z events. It supports a polled setup
+and an interrupt driven setup. 
+
+The project is hosted at Unixpheres homepage:
+http://www.unixphere.com/projects/bma150.html
+
+It has been contributed and accepted in to the Linux kernel:
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git;a=commit;h=c17ca3f5a2c98784739bbbcc3f6b6ee177f4f201
+
